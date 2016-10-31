@@ -1,7 +1,6 @@
-body {
+#boeing {
 	text-align: center;
-	background: url("Devoncharles22.github.io/unit_3/images/Corporate_Boeing777-new1.jpg");
 	background-size: cover;
 	color: #fff;
-	font-family: Helvetica;
+	font-family: "Helvetica", Serif;
 }
