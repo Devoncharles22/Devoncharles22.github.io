@@ -1,6 +1,38 @@
-#boeing {
+body {
 	text-align: center;
+	text-transform: uppercase;
+	background: url(https://www.ethos3.com/wp-content/uploads/2013/11/Presentation_Design_Training_International_Travel.jpg);
 	background-size: cover;
-	color: #fff;
-	font-family: "Helvetica", Serif;
+	color: #00AAE7;
+	font-family: Helvetica, Serif;
+
+
 }
+h1 {
+	font-size: 48px;
+	font-family: monospace, sans-serif;
+	color: #003A5D; 
+}
+
+}
+#slogan {
+	font-size: 24px;
+	font-family: Arial;
+}
+p {
+	font-size: 18px;
+	}
+ul {
+	text-align: center;
+	font-weight: bold;
+}
+hr {
+	width: 200px;
+}
+a { 
+	text-decoration: none; 
+	font-weight: bold;
+	font-size: 18px;
+	color: #4F4F51;
+}
+
