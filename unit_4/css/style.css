@@ -1,17 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster');
 
-
 body {
-	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
 	text-transform: uppercase;
+	text-align: center;
 	background: url(https://www.ethos3.com/wp-content/uploads/2013/11/Presentation_Design_Training_International_Travel.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #00AAE7;
-	font-family: 'Josefin Sans', sans-serif;
-	
-
-
 }
 h1 {
 	font-family: 'Lobster', cursive;
@@ -19,30 +15,38 @@ h1 {
 	color: #003A5D; 
 	border: none;
 	margin-top: 25px;
-
-}
-
+	-webkit-margin-after: 0px;
 }
 #slogan {
-	font-size: 24px;
-	
-}
-p {
-	font-size: 18px;
+	font-size: 32px;
+	-webkit-margin-before: 15px;	
+	-webkit-margin-after: 5px;
 }
 ul {
-	text-align: center;
-	list-style-type: none;
-	font-weight: bold;
+	list-style-type: disc;
 	-webkit-padding-start: 0px;
+	text-align: center;
 }
-hr {
-	width: 200px;
+li {
+	display: inline-block;
+	color: #003A5D;
+	padding: 20px 20px;
+	font-weight: bold;
 }
 a { 
 	text-decoration: none; 
 	font-weight: bold;
-	font-size: 18px;
-	color: #4F4F51;
+	font-size: 24px;
+	color: #cc0052;
 }
+p {
+	font-size: 24px;
+	-webkit-margin-before: 0px;
+}
+hr {
+	width: 250px;
+	-webkit-margin-before: 5px;
+	-webkit-margin-after: 5px;
+}
+
 
