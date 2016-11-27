@@ -8,55 +8,100 @@
 </head>
 
 <body>
-	<div class="wrapper">
+<div class="wrapper">
 	<header>
 		<h1>SPUR</h1>
 		<hr>
 			<p id="slogan">A new way to fly with ease</p>
 			<p>Simply, Dexis Travel</p>
 	</header>
-		<nav>
-			<ul>
-				<li>
-					<a href="#">Booking</a>
-				</li>
-				<li>
-					<a href="#">Forms</a>
-				</li>
-				<li>
-					<a href="#">Reports</a>
-				</li>
-				<li>
-					<a href="#">SOS</a>
-				</li>
-			</ul>
-		</nav>
-		<section id="sec1">
-			<article id="travel-request">
-				<p>[TRAVEL REQUEST FORM-SERIES OF DROP DOWN FIELDS HERE]</p>
-			</article>
-			<img src="http://cdn.sstatic.net/Sites/graphicdesign/img/apple-touch-icon@2.png?v=5078cbcb62f3&a" alt=>
-		</section>
-		<section id="sec2">
-			<article id="SOS">
-				<a href="#">International SOS Card</a>
-			</article>
-			<aside id="news">
+	<nav>
+			<li>
+				<a href="#">Forms</a>
+			</li>
+			<li>
+				<a href="#">Reports</a>
+			</li>
+			<li>
+				<a href="#">Polices</a>
+			</li>
+			<li>
+				<a href="#">SOS</a>
+			</li>
+	</nav>
+	<section id="two_column" class="clearfix">
+		<article id="left">
+			<p>Travel Request</p>
+				<form>
+				<div class="form-row">
+					<p class="form-text">first name:</p>
+					<input type="text" name="firstname">
+					<p class="form-text">Last name:</p>
+					<input type="text" name="lastname">
+				</div>
+				<div class="form-row">
+					<p class="form-text">E-mail:</p>
+					<input type="email" name="e-mail">
+				</div>
+				<div class="form-row">
+					<p class="form-text">Departure:</p> 
+					<input type="date" name="date">
+					<input tpey="text" name="city" value="city">
+				</div>
+				<div class="form-row">
+					<p class="form-text">Arrival:</p>
+					<input type="date" name="date">
+					<input tpey="text" name="city" value="city">
+				</div>
+				<div class="form-row">
+					<p class="form-text">Charge Code:</p>
+					<input type="text" name="code">
+					<p class="form-text">Credit Card Billed:</p>
+					<select>
+						<option value="HQ Mastercard">HQ MasterCard</option>
+						<option value="MIS AMEX">MIS AMEX</option>
+						<option value="MEL AMEX">MEL AMEX</option>
+						<option value="Contracts VISA">Contracts Visa</option>
+					</select>
+				</div>
+
+
+				<div class="form-row">
+					<p class="form-text">Special Requirements</p>
+					<textarea rows="5" columns="40" wrap="soft" form="form-text"></textarea>
+				</div>
+					<input type="submit" value="Submit">
+					<input type="reset">
+				</form>
+		</article>
+		<article id="right">
+			<div id="sos">
+				<p id="sos-text">Keep this card handy as you travel
+					<a href="https://www.internationalsos.com/Private/NET_StandardMembershipCards/comprehensive.aspx?CustomerN">
+					International SOS Card
+					</a>
+            	</p>
+            	<a href="#">
+            		<img id="sos-image" src="https://lh6.ggpht.com/4GgJpct4pxJXEU6oDHwIg-pKNvRQvabDM0J27gCsPsWsp9gtbL66gGqZgZmzeCWthZSo=w300"/>
+            	</a>
+            </div>
+            <div id="news">
 				<p>NEWS</p>
-				<a href="#">
-					<img src="https://res.cloudinary.com/devex/image/fetch/c_scale,f_auto,q_auto,w_616/https://lh4.googleusercontent.com/ylCewOKBGDJ-GvWEiSztlVQqbTsi2QPj6r156nRbRvDOQjB25fNl_dqt8Cx5xY_KmNYDsWksOswL7cL9kvdMCilnk6ACFHwVHofcMPsR_nC1xbHqgs5WbbAnaRe8ky7NsP7QmVgJ" style="width:250px;height:250
-					px;border:0">
-				</a>
-				<a href="#">
-					<img src="http://i.cdn.cnn.com/cnn/.element/img/4.0/subscription/international_graphic.jpg" style="width:250px;height:145px;border:0;">
-				</a>
-			</aside>
-		</section>
+					<a href="#">
+					<img class="news-images" src="https://res.cloudinary.com/devex/image/fetch/c_scale,f_auto,q_auto,w_616/https://lh4.googleusercontent.com/ylCewOKBGDJ-GvWEiSztlVQqbTsi2QPj6r156nRbRvDOQjB25fNl_dqt8Cx5xY_KmNYDsWksOswL7cL9kvdMCilnk6ACFHwVHofcMPsR_nC1xbHqgs5WbbAnaRe8ky7NsP7QmVgJ">
+					</a>
+					<a href="#">
+					<img class="news-images" src="http://i.cdn.cnn.com/cnn/.element/img/4.0/subscription/international_graphic.jpg">
+					</a>
+			</div>
+		</article>
+	</section>
 	<footer>
-		<address>
+			<li>
 			<a href="mailto:dcharles@dexisonline.com" id="addy">Contact Us</a>
+			</li>
 	</footer>
-	</div>
+</div>
 </body>
 
 </html>
