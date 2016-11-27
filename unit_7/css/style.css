@@ -62,7 +62,7 @@ a:hover {
 	padding: 10px;
 }
 #left {
-	background-color: rgba(255,255,255,0.9);
+	background-color: rgba(255,255,255,0.5);
     border: 2px solid #cc0052;
     padding: 5px;
     float: left;
@@ -70,18 +70,38 @@ a:hover {
 }
 #right {
 	background-color: none;
-    border: nonw;
+    border: none;
     padding: 5px;
     float: right;
     width: 45%;
 }
 #sos {
-	border: 1px black solid;
-	padding: 10px;
+	border: 2px solid #cc0052;
+	background-color: rgba(255,255,255,0.3);
+	padding: 20px;
+}
+#sos-image {
+	width:150px;
+	height:150px;
+	border: none;
 }
 #news {
 	border: 1px black solid
 	padding: 20px;
+	margin: 10px 20px 10px 5px;
+}
+.news-images {
+	width:250px;
+	height:150px;
+	border: none;
+}
+.form-text{
+	font-size: 12px;
+	display: inline-block;
+	padding: 12px;
+}
+.form-row {
+	display: inline-block;
 }
 p {
 	font-size: 24px;
@@ -92,17 +112,10 @@ hr {
 	-webkit-margin-before: 5px;
 	-webkit-margin-after: 5px;
 }
+address {
+	border: 2px solid #cc0052;
+}
 footer {
 	padding: 20px;
 }
 
-
-.form-text{
-	font-size: 12px;
-	display: inline-block;
-	padding: 12px;
-}
-
-.form-row {
-	display: inline-block;
-}
