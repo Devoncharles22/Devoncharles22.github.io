@@ -32,8 +32,7 @@ nav {
 ul {
 	list-style-type: disc;
 	-webkit-padding-start: 0px;
-	-webkit-margin-after: 0px;
-	
+	-webkit-margin-after: 0px;	
 }
 li {
 	display: inline-block;
@@ -81,9 +80,9 @@ a:hover {
 	padding: 20px;
 }
 #sos-image {
-	width:150px;
-	height:150px;
 	border: none;
+	width:250px;
+	height:150px;
 }
 #news {
 	border: 1px black solid
