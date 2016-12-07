@@ -4,7 +4,12 @@
 <head>
 	<title>SPUR</title>
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="css/owl.theme.carousel.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		
 </head>
 
 <body>
@@ -33,16 +38,12 @@
 		<article id="left">
 			<p>Travel Request</p>
 				<form>
-				<div class="form-row">
-					<p class="form-text">first name:</p>
-					<input type="text" name="firstname">
-					<p class="form-text">Last name:</p>
-					<input type="text" name="lastname">
-				</div>
-				<div class="form-row">
-					<p class="form-text">E-mail:</p>
-					<input type="email" name="e-mail">
-				</div>
+				
+				<input type="text" name="firstname" placeholder="Name">
+				
+				
+				<input type="email" name="e-mail">
+				
 				<div class="form-row">
 					<p class="form-text">Departure:</p> 
 					<input type="date" name="date">
@@ -87,12 +88,14 @@
             </div>
             <div id="news">
 				<p>NEWS</p>
+					<div class="owl-carousel owl-theme">
 					<a href="#">
 					<img class="news-images" src="https://res.cloudinary.com/devex/image/fetch/c_scale,f_auto,q_auto,w_616/https://lh4.googleusercontent.com/ylCewOKBGDJ-GvWEiSztlVQqbTsi2QPj6r156nRbRvDOQjB25fNl_dqt8Cx5xY_KmNYDsWksOswL7cL9kvdMCilnk6ACFHwVHofcMPsR_nC1xbHqgs5WbbAnaRe8ky7NsP7QmVgJ">
 					</a>
 					<a href="#">
 					<img class="news-images" src="http://i.cdn.cnn.com/cnn/.element/img/4.0/subscription/international_graphic.jpg">
 					</a>
+					</div>
 			</div>
 		</article>
 	</section>
@@ -102,6 +105,9 @@
 			</li>
 	</footer>
 </div>
+<script>$(document).ready(function(){
+   $('.owl-carousel').owlCarousel({items:1, nav:true});
+});</script>
 </body>
 
 </html>

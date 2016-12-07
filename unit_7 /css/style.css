@@ -119,3 +119,9 @@ footer {
 	padding: 20px;
 }
 
+.bxslider:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+

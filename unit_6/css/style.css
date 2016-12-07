@@ -45,6 +45,7 @@ a {
 	font-weight: bold;
 	font-size: 24px;
 	color: #cc0052;
+	padding: 5px;
 }
 a:hover {
 	color: grey;
@@ -68,21 +69,19 @@ a:hover {
     width: 47%;
 }
 #right {
-	background-color: none;
-    border: none;
+	border: 2px solid #cc0052;
+	background-color: rgba(255,255,255,0.3);
     padding: 5px;
     float: right;
     width: 45%;
 }
 #sos {
-	border: 2px solid #cc0052;
-	background-color: rgba(255,255,255,0.3);
 	padding: 20px;
 }
 #sos-image {
 	border: none;
-	width:250px;
-	height:150px;
+	width:400px;
+	height:250px;
 }
 #news {
 	border: 1px black solid
