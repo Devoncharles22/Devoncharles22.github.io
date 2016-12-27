@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster');
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	background: url(https://www.ethos3.com/wp-content/uploads/2013/11/Presentation_Design_Training_International_Travel.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #00AAE7;
+}
+header {
+	padding: 5px;
+}
+h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 72px;
+	color: #003A5D; 
+	border: none;
+	margin-top: 25px;
+	-webkit-margin-after: 0px;
+}
+#slogan {
+	font-size: 32px;
+	-webkit-margin-before: 15px;	
+	-webkit-margin-after: 5px;
+}
+nav {
+	padding: 5px;
+	margin: none;
+}
+ul {
+	list-style-type: disc;
+	-webkit-padding-start: 0px;
+	-webkit-margin-after: 0px;
+	
+}
+li {
+	display: inline-block;
+	margin: 5px 20px 5px 20px;
+	padding: 10px 10px;
+	border: 2px solid #cc0052;
+}
+a { 
+	text-decoration: none; 
+	font-weight: bold;
+	font-size: 24px;
+	color: #cc0052;
+}
+a:hover {
+	color: grey;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#two_column {
+	padding: 10px;
+}
+#left {
+	background-color: rgba(255,255,255,0.5);
+    border: none;
+    padding: 20px;
+    float: left;
+    width: 47%;
+}
+#right {
+	background-color: none;
+    border: none;
+    padding: 5px;
+    float: right;
+    width: 45%;
+}
+#sos {
+	border: none;
+	background-color: rgba(255,255,255,0.3);
+	padding: 20px;
+}
+#sos-image {
+	width:150px;
+	height:150px;
+	border: none;
+}
+#news {
+	border: 1px black solid
+	padding: 20px;
+	margin: 10px 20px 10px 5px;
+}
+.news-images {
+	width:250px;
+	height:250px;
+	border: none;
+}
+form {
+  display: table;
+  margin: 10px auto;
+  float: left;
+}
+form label {
+  position: relative;
+  display: block;
+}
+form label input {
+  font: 18px Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  display: block;
+  border: 1px solid #cc0052;
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  outline: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+form label input::-webkit-input-placeholder {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #999;
+  font: 18px Helvetica, Arial, sans-serif;
+}
+form label input::-moz-placeholder {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #999;
+  font: 18px Helvetica, Arial, sans-serif;
+}
+form label input:-ms-input-placeholder {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #999;
+  font: 18px Helvetica, Arial, sans-serif;
+}
+form label input::placeholder {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #999;
+  font: 18px Helvetica, Arial, sans-serif;
+}
+form label input:focus, form label input.populated {
+  padding-top: 28px;
+  padding-bottom: 12px;
+}
+form label input:focus::-webkit-input-placeholder, form label input.populated::-webkit-input-placeholder {
+  color: transparent;
+}
+form label input:focus::-moz-placeholder, form label input.populated::-moz-placeholder {
+  color: transparent;
+}
+form label input:focus:-ms-input-placeholder, form label input.populated:-ms-input-placeholder {
+  color: transparent;
+}
+form label input:focus::placeholder, form label input.populated::placeholder {
+  color: transparent;
+}
+form label input:focus + span, form label input.populated + span {
+  opacity: 1;
+  top: 10px;
+}
+form label span {
+  color: #00AAE7;
+  font: 13px Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+form input[type="submit"] {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font: 18px Helvetica, Arial, sans-serif;
+  border: none;
+  background: #003A5D;
+  color: #fff;
+  padding: 16px 40px;
+}
+form input[type="submit"]:hover {
+  background: #00AAE7;
+}
+
+p {
+	font-size: 24px;
+	-webkit-margin-before: 0px;
+}
+hr {
+	width: 250px;
+	-webkit-margin-before: 5px;
+	-webkit-margin-after: 5px;
+}
+address {
+	border: 2px solid #cc0052;
+}
+footer {
+	padding: 20px;
+}
+
+.bxslider:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+

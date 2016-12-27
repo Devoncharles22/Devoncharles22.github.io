@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>SPUR</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="css/owl.theme.carousel.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/spurform.js"></script>
+		<meta name="viewport" content="width=device-width, initialscale=1">
+		
+</head>
+<body>
+<div class="wrapper">
+	<header>
+		<h1>SPUR</h1>
+		<hr>
+			<p id="slogan">A new way to fly with ease</p>
+			<p>Simply, Dexis Travel</p>
+	</header>
+	<nav>
+			<li>
+				<a href="#">Forms</a>
+			</li>
+			<li>
+				<a href="#">Reports</a>
+			</li>
+			<li>
+				<a href="#">Polices</a>
+			</li>
+			<li>
+				<a href="#">SOS</a>
+			</li>
+	</nav>
+	<section id="two_column" class="clearfix">
+		<article id="left">
+			<p>Travel Request</p>
+				<form>
+  					<label>
+    				<input id="fname" type="text" placeholder="First Name">
+    				<span>First Name</span>
+  					</label>
+  					<label>
+  					<input id="lname" type="text" placeholder="Last Name">
+  					<span>Last Name</span>
+  					</label>
+  				    <label>
+  					<input id="Dcity" type="text" placeholder="Departure City">
+  					<span>Departure City</span>
+  					</label>
+  					<label>
+  					<input id="Ddate" type="date" placeholder="Departure Date">
+  					<span>Departure Date</span>
+  					</label>
+  					<label>
+  					<input id="Acity" type="text" placeholder="Arrival City">
+  					<span>Departure City</span>
+  					</label>
+  					<label>
+  					<input id="Adate" type="date" placeholder="Arrival Date">
+  					<span>Arrival City</span>
+  					</label>
+  					<label>
+  					<input id="CreditCard" type="select" placeholder="Credit Card">
+  					<span>Credit Card</span>
+  					</label>
+                    <label>
+                    <input type="email" placeholder="Email">
+                    <span>Email</span>
+                    </label>
+                <input type="submit" value="Send">
+            </form>
+		</article>
+		<article id="right">
+			<div id="sos">
+				<p id="sos-text">Keep this card handy as you travel
+					<a href="https://www.internationalsos.com/Private/NET_StandardMembershipCards/comprehensive.aspx?CustomerN">
+					International SOS Card
+					</a>
+            	</p>
+            	<a href="#">
+            		<img id="sos-image" src="img/SOS.card.png"/>
+            	</a>
+            </div>
+		</article>
+	</section>
+		<div id="news">
+			<p>NEWS</p>
+				<div class="owl-carousel owl-theme">
+				<a href="#">
+				<img class="news-images" src="img/world-press-freedom-index.jpg">
+				</a>
+				<a href="#">
+				<img class="news-images" src="img/international_graphic.jpg">
+				</a>
+				<a href="#">
+				<img class="news-images" src="img/msnbc.jpg">
+				</a>
+				<a> 
+				<img class="news-images" src="img/AlJazeera.worldnews.jpg">
+				</a>
+				<a>
+				<img class="news-images" src="img/bbc.worldnews.jpeg">
+				</a>
+				<a>
+				<img class="news-images" src="img/7026486-cape-town-foggy-night.jpg">
+				</a>
+				</div>
+		</div>
+	<footer>
+			<li>
+			<a href="mailto:dcharles@dexisonline.com" id="addy">Contact Us</a>
+			</li>
+	</footer>
+</div>
+<script>$(document).ready(function(){
+   $('.owl-carousel').owlCarousel({items:3, nav:true});
+});</script>
+</body>
+
+</html>
