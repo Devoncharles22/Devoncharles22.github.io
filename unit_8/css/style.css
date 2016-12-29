@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 
 body {
 	font-family: 'Josefin Sans', sans-serif;
@@ -66,18 +71,17 @@ a:hover {
     border: none;
     padding: 20px;
     float: left;
-    width: 47%;
+    width: 40%;
 }
 #right {
-	background-color: none;
+	background-color: rgba(255,255,255,0.5);
     border: none;
-    padding: 5px;
+    padding: 20px;
     float: right;
-    width: 45%;
+    width: 60%;
 }
 #sos {
 	border: none;
-	background-color: rgba(255,255,255,0.3);
 	padding: 20px;
 }
 #sos-image {
@@ -95,10 +99,13 @@ a:hover {
 	height:250px;
 	border: none;
 }
+#form-title {
+  padding-top: 20px;
+}
 form {
   display: table;
   margin: 10px auto;
-  float: left;
+  width: 100%;
 }
 form label {
   position: relative;
@@ -110,7 +117,7 @@ form label input {
   display: block;
   border: 1px solid #cc0052;
   padding: 10px;
-  width: 300px;
+  width: 100%;
   margin-bottom: 20px;
   font-size: 18px;
   outline: none;
@@ -141,6 +148,9 @@ form label input::placeholder {
   color: #999;
   font: 18px Helvetica, Arial, sans-serif;
 }
+input[type="date"] {
+  color: #999;
+  }
 form label input:focus, form label input.populated {
   padding-top: 28px;
   padding-bottom: 12px;
@@ -188,11 +198,6 @@ p {
 	font-size: 24px;
 	-webkit-margin-before: 0px;
 }
-hr {
-	width: 250px;
-	-webkit-margin-before: 5px;
-	-webkit-margin-after: 5px;
-}
 address {
 	border: 2px solid #cc0052;
 }
@@ -204,5 +209,16 @@ footer {
 	content: "";
 	display: block;
 	clear: both;
+}
+@media screen and (max-width: 836px){
+  #left, #right {
+    float:none;
+    width: 100%;
+  }
+} 
+@media screen and (max-width: 619px){
+  li {
+    width: 50%;
+  }
 }
 
