@@ -19,14 +19,14 @@ header {
 }
 h1 {
 	font-family: 'Lobster', cursive;
-	font-size: 72px;
+	font-size: 4.5em;
 	color: #003A5D; 
 	border: none;
 	margin-top: 25px;
 	-webkit-margin-after: 0px;
 }
 #slogan {
-	font-size: 32px;
+	font-size: 2em;
 	-webkit-margin-before: 15px;	
 	-webkit-margin-after: 5px;
 }
@@ -49,7 +49,7 @@ li {
 a { 
 	text-decoration: none; 
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 1.3em;
 	color: #cc0052;
 }
 a:hover {
@@ -113,14 +113,14 @@ form label {
   display: block;
 }
 form label input {
-  font: 18px Helvetica, Arial, sans-serif;
+  font: 1em Helvetica, Arial, sans-serif;
   box-sizing: border-box;
   display: block;
   border: 1px solid #cc0052;
   padding: 10px;
   width: 100%;
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 1em;
   outline: none;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -129,25 +129,25 @@ form label input::-webkit-input-placeholder {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   color: #999;
-  font: 18px Helvetica, Arial, sans-serif;
+  font: 1em Helvetica, Arial, sans-serif;
 }
 form label input::-moz-placeholder {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   color: #999;
-  font: 18px Helvetica, Arial, sans-serif;
+  font: 1em Helvetica, Arial, sans-serif;
 }
 form label input:-ms-input-placeholder {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   color: #999;
-  font: 18px Helvetica, Arial, sans-serif;
+  font: 1em Helvetica, Arial, sans-serif;
 }
 form label input::placeholder {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   color: #999;
-  font: 18px Helvetica, Arial, sans-serif;
+  font: 1em Helvetica, Arial, sans-serif;
 }
 input[type="date"] {
   color: #999;
@@ -174,7 +174,7 @@ form label input:focus + span, form label input.populated + span {
 }
 form label span {
   color: #00AAE7;
-  font: 13px Helvetica, Arial, sans-serif;
+  font: .8em Helvetica, Arial, sans-serif;
   position: absolute;
   top: 0px;
   left: 20px;
@@ -185,7 +185,7 @@ form label span {
 form input[type="submit"] {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  font: 18px Helvetica, Arial, sans-serif;
+  font: 1.2em Helvetica, Arial, sans-serif;
   border: none;
   background: #003A5D;
   color: #fff;
@@ -196,7 +196,7 @@ form input[type="submit"]:hover {
 }
 
 p {
-	font-size: 24px;
+	font-size: 1.5em;
 	-webkit-margin-before: 0px;
 }
 address {
@@ -217,7 +217,7 @@ footer {
     width: 100%;
   }
   a {
-    font-size: 20px;
+    font-size: 1.3em;
   }
     .news-images {
     width: 100%;
@@ -230,7 +230,7 @@ footer {
     margin: 10px 5px 10px 5px;
   }
   a {
-    font-size: 16px;
+    font-size: 1em;
   }
   .news-images {
     width: 100%;
@@ -243,7 +243,7 @@ footer {
     margin: 10px 5px 10px 5px;
   }
   a {
-    font-size: 16px;
+    font-size: 1em;
   }
   .news-images {
     width: 100%;
