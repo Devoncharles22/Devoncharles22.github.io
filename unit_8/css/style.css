@@ -98,6 +98,7 @@ a:hover {
 .news-images {
   height: 250px;
 	border: none;
+  padding-top: .3em;
 }
 #form-title {
   padding-top: 20px;
@@ -227,6 +228,15 @@ footer {
   .news-images {
     width: 100%;
     height: 150px;
+  }
+}
+@media screen and (max-width: 487px) {
+  li {
+    width: 45%;
+  }
+  .news-images {
+    width: 100%;
+    height: 125px;
   }
 }
 
